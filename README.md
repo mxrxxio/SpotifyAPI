@@ -1,3 +1,3 @@
 ### Learning API requests
 
-Printer albums of an artist in Sootify
+Just to learn API requests, in the future new implementations and functions

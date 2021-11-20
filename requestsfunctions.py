@@ -35,7 +35,3 @@ def test_artist(artist_id, BASE_URL_SPOTIFY, header):
 def print_albums(artist_json):
     for album in artist_json['items']:
         print(album['name'], ' - - ', album['release_date'])
-
-
-# print(json.dumps(test_artist(RADIOHEAD, BASE_URL, headers), indent=4))
-print(print_albums(test_artist(LED_ZEPPELIN, BASE_URL, headers)))
